@@ -209,9 +209,9 @@ color:rgb(28, 5, 66);
 
     @font-face {
       font-family: 'diablo';
-      src: url('C:\Users\leoro\AppData\Local\Microsoft\Windows\Fonts\Diablo Heavy.ttf') format('truetype');;
+      src: url('C:\Users\leoro\AppData\Local\Microsoft\Windows\Fonts\DiabloHeavy.ttf') format('truetype');;
     }
-    
+
     .greeting{
       text-align:center;
       color:brown;
