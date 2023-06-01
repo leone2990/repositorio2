@@ -215,8 +215,8 @@ color:rgb(28, 5, 66);
     .greeting{
       text-align:center;
       color:brown;
-      font-size: 24px;
-      font-family: 'diablo';
+      font-size: 30px;
+      font-family: 'diablo',sans-serif;
     }
 
 
