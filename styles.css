@@ -219,8 +219,33 @@ color:rgb(28, 5, 66);
       font-family: 'diablo',sans-serif;
     }
 
+    .font-diablo{
+      font-family: 'diablo';
+      font-size: 24px;
+      text-align: center;
+      color:rgb(206, 88, 88);
+    }
 
+    .font-diablo-about{
+      font-family: 'diablo';
+      font-size: 24px;
+      text-align: center;
+      color:rgb(0, 0, 0);
+    }
 
+    .font-diablo-h1{
+      font-family: 'diablo';
+      font-size: 48px;
+      text-align: center;
+      color:rgb(196, 20, 20);
+    }
+
+    .font-diablo-h2{
+      font-family: 'diablo';
+      font-size: 36px;
+      text-align: center;
+      color:rgb(0, 0, 0);
+    }
 
     /* Media querie Responsive*/
   @media (max-width: 768px) {
