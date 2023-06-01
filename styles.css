@@ -207,6 +207,13 @@ color:rgb(28, 5, 66);
       padding:50px;
     }
 
+    .greeting{
+      text-align:center;
+    }
+
+
+
+
     /* Media querie Responsive*/
   @media (max-width: 768px) {
   .column {
