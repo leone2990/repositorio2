@@ -209,7 +209,7 @@ color:rgb(28, 5, 66);
 
     @font-face {
       font-family: 'diablo';
-      src: url('C:\Users\leoro\AppData\Local\Microsoft\Windows\Fonts\DiabloHeavy.ttf') format('truetype');;
+      src: url('/fonts/font_diablo.TTF') format('truetype');
     }
 
     .greeting{
