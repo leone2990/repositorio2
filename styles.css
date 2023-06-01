@@ -207,10 +207,16 @@ color:rgb(28, 5, 66);
       padding:50px;
     }
 
+    @font-face {
+      font-family: 'diablo';
+      src: url('C:\Users\leoro\AppData\Local\Microsoft\Windows\Fonts\Diablo Heavy.ttf') format('truetype');;
+    }
+    
     .greeting{
       text-align:center;
       color:brown;
       font-size: 24px;
+      font-family: 'diablo';
     }
 
 
