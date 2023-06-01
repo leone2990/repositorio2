@@ -1,0 +1,266 @@
+/*CSS aplicado al cuerpo y a los contenedores del formulario, entre otros*/
+
+body{
+  background-color:rgb(241, 224, 224);
+  color: rgb(15, 17, 119);
+  margin:0;
+  font-family:monospace;
+  font-weight: bold;
+  font-size:20px;
+
+}
+main{
+  min-height:150vh;
+}
+footer{
+  position:relative;
+  display:flex;
+  bottom:0;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  background-color: rgba(145, 0, 0, 0.322);
+  min-height: 200px;
+  text-align:center;
+  width:100%;
+}
+
+h1{
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color:rgb(68, 31, 31);
+}
+
+h2{
+  position:grid;
+  font-family:'Times New Roman', Times, serif;
+  color:rgb(255, 255, 255);
+  font-size: 24px;
+  text-align: left;
+}
+
+h3:hover{
+  font-family: monospace;
+  color:rgb(224, 131, 24);
+}
+
+h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:antiquewhite
+}
+p{
+  text-align: center;
+  font-family: Georgia, serif;
+  color: rgb(99, 13, 13);
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.container {
+margin: auto;
+padding: 20px;
+background-color: rgb(214, 115, 115);
+}
+
+.container-formulario{
+  background-color:rgb(121, 24, 56);
+  padding:30px;
+}
+
+.form-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.form-control{
+width:100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+  
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.ejemplo{
+  padding:10px;
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: 200px;
+  margin-right: 200px;
+}
+
+.caja-form{
+  border-radius: 10px solid rgb(250,250,250);
+  border-color:azure;
+}
+
+.box{
+  background-color: rgb(226, 220, 198);
+  width:300px;
+  height:150px;
+  padding:20px;
+  border:5px solid rgb(250, 250, 250);
+  margin:50px;
+}
+.texto-caja{
+color:rgb(28, 5, 66);
+}
+
+.boton:hover{
+  background-color:rgb(29, 0, 0);
+  color:rgb(214, 0, 0);
+  position:center;
+}
+.boton{
+  display:flex;
+  background-color: white;
+}
+
+.btn-success:hover{
+  color:rgb(226, 183, 183);
+  background-color:rgb(29, 0, 0);
+}
+
+.btn-success{
+  color:rgb(0, 0, 0);
+  
+}
+
+.mail{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: rgb(134, 19, 19);
+  padding:10px;
+  color:rgb(1, 1, 95);
+}
+     
+/* Barra de navegacion */
+  .container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.767);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+
+  li>a {
+    padding: 8px 24px;
+  }
+  
+  li {
+    list-style-type: none;
+    color:darkslateblue;
+  }
+
+  a {
+    color: rgb(247, 168, 168);
+    text-decoration:none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-menu-toggle {
+      display: block;
+      background-color: rgb(156, 58, 58);
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .img-container{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      align-items:center;
+    }
+
+
+    .video-container{
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+      gap:50px;
+      padding:50px;
+    }
+
+    /* Media querie Responsive*/
+  @media (max-width: 768px) {
+  .column {
+    flex: 100%;
+  }
+
+/*Media query 600px*/
+  @media (max-width: 600px) {
+  .column {
+    flex: 100%;
+  }
+  } 
+
+/* Botones y links*/
+  .nav-links {
+    display: none;
+  }
+
+  .button-menu-toggle {
+    display: block;
+    background-color: rgb(156, 58, 58);
+    border:none;
+    border-radius: 50px;
+    padding: 0 24px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .nav-links.nav-links-responsive {
+    position: absolute;
+    display: flex;
+    background-color: rgba(37, 6, 6, 0.95);
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left: 0;
+    flex-direction: column;
+    padding-top: 200px;
+    align-items: center;
+    gap:70px;
+    font-size: 40px;
+  }
+
+  .img-container{
+    flex-direction:column;
+  }
+
+  .video-container{
+    padding:10px;
+    gap:5px;
+  }
+
+  iframe,video{
+    max-width:90%;
+  }
+}
