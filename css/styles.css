@@ -209,7 +209,7 @@ color:rgb(28, 5, 66);
 
     @font-face {
       font-family: 'diablo';
-      src: url('../font_diablo.TTF') format('truetype');
+      src: url('../miprimerapagina/font_diablo.TTF') format('truetype');
     }
 
     .greeting{
